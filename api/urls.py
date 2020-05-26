@@ -15,7 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from .views import get_tree_using_distance_matrix, get_tree_using_similarities
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+
+    path('api/get_tree_from_similarities/', get_tree_using_similarities),
+    path('api/get_tree_from_distance_matrix/', get_tree_using_distance_matrix),
+
 ]
