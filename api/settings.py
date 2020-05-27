@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '1o#^)(2tcv-5uw8i8b6(-$w_nosfv%dx9)z&y2nynjf7o)ndvc'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['phylogenetic-tree-api.herokuapp.com']
 
 
 # Application definition
