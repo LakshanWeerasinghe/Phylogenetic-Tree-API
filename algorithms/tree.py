@@ -164,7 +164,6 @@ def get_tree_from_distance_matrix(labels, distances):
 
 def get_tree_from_similarities(lsh_similarity_result):
 
-    print("Fuck")
     generate_values_from_similarities(lsh_similarity_result)
 
     return kmedoid()
